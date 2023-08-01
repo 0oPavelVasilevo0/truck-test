@@ -23,7 +23,6 @@
     border-radius: 20px;
     background-color: var(--project-card-bg);
     backdrop-filter: blur(10px) contrast(50%);
-    /* width: 200px; */
     transform: scale(0.5);
     transition: 0.4s all;
 }

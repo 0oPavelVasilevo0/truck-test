@@ -1,20 +1,16 @@
 import "./styles/main.css";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
-
 import Projects from "./pages/Projects";
 import Contacts from "./pages/Contacts";
 import Project from "./pages/Project";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import ScrollToTop from "./utils/scrollToTop";
-// import Modal from "./components/Modal/Modal";
-
 
 function App() {
     return (
         <div className="App">
-            {/* <Modal/> */}
             <Router>
                 <ScrollToTop />
                 <Navbar />

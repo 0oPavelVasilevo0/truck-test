@@ -14,18 +14,14 @@ font-family: 'Poppins', sans-serif;
 :root {
     --tw-bg-opacity: 1;
     --blackpure: #000;
-    /* --black: #171718; */
     --black: rgb(0 54 82/var(--tw-bg-opacity));
     --black-transparent: #171718;
     --black-border: #26292D;
-    /* --white: #fdf4dafc; */
     --gray: rgba(255, 255, 255, 0.88);
     --gray-black: rgba(0, 0, 0, 0.354);
     --white: #e6e6e6fc;
     --super-white: white;
     --blue: rgb(97, 218, 251);
-    /* --grey: #e2e1db; */
-    /* --grey: rgb(229 237 229/var(--tw-bg-opacity)); */
     --grey: rgb(228, 228, 228);
     --purple: rgb(23, 130, 108);
     --light: rgba(216, 216, 216, 0.309);
@@ -105,7 +101,6 @@ body {
 .section {
     padding: 70px 0;
     background-color: var(--page-bg);
-    /* background-image: var(--header-bg-image); */
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
@@ -114,13 +109,6 @@ body {
 .title-1 {
     margin-top: 20px;
     margin-bottom: 20px;
-    /* margin: 20px 20px 10px; */
-    /* height: 80px;
-    max-width: 20vw; */
-    /* justify-content: center;
-    align-items: center; */
-    /* width: 100%; */
-    /* display: flex; */
     font-size: 26px;
     font-weight: 700;
     line-height: 1.3;
@@ -136,8 +124,6 @@ body {
 }
 
 .title-3 {
-    /* margin-top: 20px;
-    margin-bottom: 10px; */
     margin: 20px 20px 20px 20px;
     font-size: 24px;
     height: 80px;
@@ -232,7 +218,6 @@ body {
 
 .content-list a {
     color: var(--header-text);
-    /* color: rgb(0, 255, 149); */
 }
 
 .content-list__item {
@@ -447,7 +432,6 @@ body {
 
     h2.title-1 {
         margin-top: 10vh;
-        /* margin-top: 4vh; */
     }
 
     h1.title-1 {

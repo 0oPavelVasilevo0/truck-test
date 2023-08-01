@@ -9,7 +9,6 @@
     height: 23px;
     padding: 2.8px 4px;
     border-radius: 2px;
-    /* background-color: #272727;   */
 }
 
 .dark-mode-btn::before {
@@ -21,7 +20,6 @@
     width: 21px;
     height: 21px;
     border-radius: 2px;
-    /* background-color: var(--white); */
     background-color: var(--active);
     transition: left 0.2s ease-in;
 
@@ -35,18 +33,15 @@
 .dark-mode-btn__icon {
     position: relative;
     z-index: 9;
-    /* fill: rgb(95, 95, 95); */
     width: 14px;
     height: 16px;
     align-items: center;
 }
 
 .sun {
-    /* fill: var(--sun); */
     fill: white;
 }
 
 .moon {
-    /* fill: var(--moon); */
     fill: black;
 }

@@ -1,10 +1,7 @@
 import React, { useEffect } from 'react';
 import { useLocalStorage } from '../../utils/useLocalStorage';
-// import sun from "./sun.svg";
-// import moon from "./moon.svg";
 import "./style_dark_btn.css"
 import detectDarkMode from '../../utils/detectDarkMode';
-// import { FaMoon, FaSun } from 'react-icons/fa';
 import { BsMoonStarsFill, BsSunFill } from 'react-icons/bs'
 
 const BtnDarkMode = () => {

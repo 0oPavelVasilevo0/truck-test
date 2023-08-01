@@ -5,11 +5,7 @@
     padding: 6px 0 6px;
     border-top: 1px solid var(--dark-border);
     background-color: var(--nav-bg);
-    /* color: var(--header-text); */
     color: var(--header-text);
-    /* position: fixed;
-    bottom: 0;
-    width: 100%; */
     width: 100%;
     position: fixed;
     bottom: 0;

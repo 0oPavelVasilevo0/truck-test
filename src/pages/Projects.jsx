@@ -3,9 +3,6 @@ import Proj from '../components/project/Proj';
 import { projects } from '../helpers/projectsList';
 import { useTranslation } from 'react-i18next';
 
-
-
-
 const Projects = () => {
 
     const { t } = useTranslation()
@@ -17,16 +14,8 @@ const Projects = () => {
                 <ul className="projects">
                     {projects.map((project, index) => {
                         return (
-                            // <Proj
-                            //     key={project.id}
-                            //     title={t(project.title)}
-                            //     img={project.img}
-                            //     index={index}
-                            // />
                             <Proj
                                 key={project.id}
-                                // title={t(project.title)}
-                                // img={project.img}
                                 project={project}
                                 index={index}
                             />
