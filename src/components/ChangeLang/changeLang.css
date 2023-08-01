@@ -1,0 +1,24 @@
+.btn_lang {
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: smaller;
+    /* width: 20px;
+    height: 23px; */
+    border-radius: 2px;
+    font-weight: normal;
+    order: 3;
+}
+
+.lang {
+    padding: 2.2px 4px;
+    border-radius: 2px;
+}
+
+.selected {
+    font-weight: bold;
+    /* Change the background color to your desired color */
+    color: var(--accent);
+    background-color: var(--active);
+}

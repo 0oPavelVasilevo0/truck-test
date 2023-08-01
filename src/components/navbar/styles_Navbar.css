@@ -1,0 +1,62 @@
+/* Nav */
+.nav {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--dark-border);
+    background-color: var(--nav-bg);
+    color: var(--header-text);
+    letter-spacing: normal;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    margin-right: auto;
+    color: var(--project-card-text);
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    order: 1;
+}
+
+.logo strong {
+    font-weight: 700;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    align-items: center;
+    column-gap: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    order: 2;
+}
+
+.nav-list__link {
+    color: var(--header-text);
+    transition: opacity 0.2s ease-in;
+    padding: 1.6px 4px 1.6px 4px;
+    border-radius: 2px;
+}
+
+.nav-list__link:hover {
+    opacity: 0.8;
+}
+
+.nav-list__link--active {
+    position: relative;
+    font-weight: bold;
+    color: var(--accent);
+    background-color: var(--active);
+}

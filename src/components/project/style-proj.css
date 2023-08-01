@@ -1,0 +1,41 @@
+.project {
+    max-width: 280px;
+    min-width: 22vw;
+    text-align: center;
+    background-color: var(--project-card-bg);
+    backdrop-filter: blur(10px) contrast(50%);
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.project__title {
+    display: flex;
+    height: 100px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+    color: var(--project-card-text);
+    min-width: 14vw;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.window_close {
+    position: absolute;
+    right: 0;
+    margin: 10px 10px;
+    border-radius: 6px;
+    z-index: 10;
+    width: 28px;
+    height: 28px;
+    display: flex;
+}
+
+.icon_close {
+    fill: var(--project-card-text);
+    padding: 2px;
+    width: 28px;
+    height: 28px;
+}

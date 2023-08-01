@@ -1,0 +1,28 @@
+{
+    "title_header": "Offsite repair of trucks,",
+    "header_text": "trailers, semi-trailers and special equipment in Togliatti and the Samara region",
+    "navbar_title": "Repair",
+    "navbar_title/": "Trucks",
+    "navbar_list1": "Home",
+    "navbar_list2": "Service Types",
+    "navbar_list3": "Contacts",
+    "repair_title": "Service Types",
+    "contact_title": "Contacts",
+    "contact_name": "Danileichuk Vitaly",
+    "contact_region": "Samara region, Tolyatti",
+    "contact_time": "Выезд к клиенту по Самарской обл. и её пределами. Звонить круглосуточно. Доставка запчастей.",
+    "projects": {
+        "title": {
+            "engine": "Engine",
+            "suspension": "Suspension",
+            "chassis": "Chassis",
+            "transmission": "Transmission",
+            "brake_system": "Brake system",
+            "maintenance": "Maintenance",
+            "other": "Our work"
+
+        }
+    }
+    
+}
+

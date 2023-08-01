@@ -1,0 +1,26 @@
+{
+    "title_header": "Mobil kamyon tamiri",
+    "header_text": "Togliatti ve Samara bölgesinde kamyon, treyler, yarı römork ve özel ekipmanların tesis dışı onarımı",
+    "navbar_title": "Kamyon",
+    "navbar_title/": "Tamiri",
+    "navbar_list1": "Anasayfa",
+    "navbar_list2": "Hizmet Türleri",
+    "navbar_list3": "iletişime",
+    "repair_title": "Hizmet Türleri",
+    "contact_title": "İletişimе",
+    "contact_name": "Danileichuk Vitaly",
+    "contact_region": "Samara bölgesi, Togliatti",
+    "contact_time": "Выезд к клиенту по Самарской обл. и её пределами. Звонить круглосуточно. Доставка запчастей.",
+    "projects": {
+        "title": {
+            "engine": "Motor",
+            "suspension": "Süspansiyon",
+            "chassis": "şasisi",
+            "transmission": "Şanzıman",
+            "brake_system": "Fren sistemi",
+            "maintenance": "Hizmet",
+            "other": "işimiz"
+        }
+    }
+   
+}

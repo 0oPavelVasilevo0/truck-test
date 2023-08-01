@@ -1,0 +1,39 @@
+.project_01 {
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list-project {
+    max-width: 100%;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.list_project_ul li {
+    display: list-item;
+    list-style: square;
+    list-style-position: inside;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: left;
+   
+}
+
+.title-project {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.3;
+}
+
+a {
+    color: var(--active);
+    font-weight:bold;
+    font-size: larger;
+}

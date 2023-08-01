@@ -1,0 +1,34 @@
+.modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position:fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.modal.active {
+    opacity: 50;
+    pointer-events: all;
+}
+
+.modal_content {
+    padding: none;
+    border-radius: 20px;
+    background-color: var(--project-card-bg);
+    backdrop-filter: blur(10px) contrast(50%);
+    /* width: 200px; */
+    transform: scale(0.5);
+    transition: 0.4s all;
+}
+
+.modal_content.active {
+    transform: scale(1);
+
+}

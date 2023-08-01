@@ -1,0 +1,4 @@
+.project__img {
+    min-width: 14vw;
+    color: var(--project-card-text);
+}
