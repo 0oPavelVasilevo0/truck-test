@@ -40,7 +40,7 @@ const CaruselInfoOne = () => {
             </CaruselOne.Page>
             <CaruselOne.Page>
                 <img className='picture' src={image2} alt='2' />
-                <p>2</p>
+                <p>описание</p>
             </CaruselOne.Page>
               <CaruselOne.Page>
                 <img className='picture' src={image4} alt='4' />
