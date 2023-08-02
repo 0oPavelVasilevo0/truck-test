@@ -13,16 +13,15 @@
     display: flex;
     justify-content: center;
     border-radius: 6px;
+    font-size: 20px;
+    font-weight: 80;
 }
 
 .list_project_ul li {
     display: list-item;
     list-style: square;
     list-style-position: inside;
-    font-size: 20px;
-    font-weight: 100;
     text-align: left;
-   
 }
 
 .title-project {
