@@ -23,7 +23,8 @@ font-family: 'Poppins', sans-serif;
     --super-white: white;
     --blue: rgb(97, 218, 251);
     --grey: rgb(228, 228, 228);
-    --purple: rgb(23, 130, 108);
+    /* --purple: rgb(23, 130, 108); */
+    --purple: #019492;
     --light: rgba(216, 216, 216, 0.309);
     --dark: rgba(0, 0, 0, 0.346);
     --text-color: var(--black);
