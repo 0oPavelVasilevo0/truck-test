@@ -287,8 +287,6 @@ body {
     }
 
     .logo.active {
-        margin-right: auto;
-        margin-left: auto;
         order: 2;
     }
 
