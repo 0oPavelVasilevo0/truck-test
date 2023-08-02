@@ -36,17 +36,18 @@
     flex-wrap: wrap;
     row-gap: 10px;
     align-items: center;
-    column-gap: 20px;
     font-size: 16px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     order: 2;
+    width: 400px;
+    justify-content: space-around;
 }
 
 .nav-list__link {
     color: var(--header-text);
     transition: opacity 0.2s ease-in;
-    padding: 1.6px 4px 1.6px 4px;
+    padding: 1.6px 4px;
     border-radius: 2px;
 }
 

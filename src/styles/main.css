@@ -256,6 +256,10 @@ body {
     .header.header {
         background-size: cover;
     }
+
+    ul.nav-list {
+        width: 360px;
+    }
 }
 
 @media (max-width: 780px) {
@@ -269,7 +273,7 @@ body {
 
     a.logo {
         font-size: 20px;
-        margin: 0;
+        margin-right: auto;
     }
 
     .project-details {
@@ -282,8 +286,6 @@ body {
     /* Header  */
     a.logo {
         font-size: 14px;
-        margin: 0;
-
     }
 
     .logo.active {
