@@ -26,21 +26,16 @@ import image25 from './../../img/carusel_img/photo_25.png';
 import image26 from './../../img/carusel_img/photo_26.png';
 import image27 from './../../img/carusel_img/photo_27.png';
 import './carusel_info_one.css';
-import { useTranslation } from 'react-i18next';
 
 const CaruselInfoOne = () => {
-
-    const {t} = useTranslation();
 
     return (
         <CaruselOne >
             <CaruselOne.Page>
                 <img className='picture' src={image1} alt='1' />
-                <p>{t('contact_time')}</p>
             </CaruselOne.Page>
             <CaruselOne.Page>
                 <img className='picture' src={image2} alt='2' />
-                <p>описание</p>
             </CaruselOne.Page>
               <CaruselOne.Page>
                 <img className='picture' src={image4} alt='4' />
