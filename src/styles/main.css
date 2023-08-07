@@ -396,13 +396,16 @@ body {
 
     .content-list {
         row-gap: 10px;
-        margin-bottom: 40px;
+        margin-bottom: 10px;
     }
 
     .content-list__item {
         font-size: 16px;
     }
-
+    
+    div.contact {
+        margin-bottom: 10px;
+    }
     /* Footer */
 
     .footer {
@@ -450,6 +453,10 @@ body {
     .nav {
         font-weight: lighter;
         font-size: small;
+    }
+
+    div.contact {
+        margin-bottom: 10px;
     }
 
     li.project {
