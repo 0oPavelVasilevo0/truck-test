@@ -2,7 +2,7 @@
 
 .footer {
     margin-top: auto;
-    padding: 6px 0 6px;
+    padding: 8px 0;
     border-top: 1px solid var(--dark-border);
     background-color: var(--nav-bg);
     color: var(--header-text);
@@ -22,19 +22,18 @@
 
 .social {
     display: flex;
-    column-gap: 30px;
-    align-items: center;
-
+    column-gap: 36px;
 }
 
-.social__item {
-    color: black;
+li.social__item {
+    width:22px;
+    align-items: center;
 }
 
 .social_icon {
-    width: 20px;
-    height: 40px;
+    width: 22px;
     fill: var(--header-text);
+    vertical-align: middle;
 }
 
 .copyright {
