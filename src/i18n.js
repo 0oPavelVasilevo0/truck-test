@@ -15,7 +15,7 @@ i18n
             cashes: []
         },
         backend: {
-            loadPAth: 'public/locales/en/{{lng}}/translation.json',
+            loadPAth: 'public/locales/ru/{{lng}}/translation.json',
         },
         debug: true,
         interpolation: {
