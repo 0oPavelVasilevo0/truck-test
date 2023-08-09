@@ -20,7 +20,7 @@
 
 .modal_content {
     padding: none;
-    border-radius: 20px;
+    border-radius: 8px;
     background-color: var(--project-card-bg);
     backdrop-filter: blur(10px) contrast(50%);
     transform: scale(0.5);

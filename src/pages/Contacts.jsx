@@ -14,7 +14,7 @@ const Contacts = () => {
                 <div className='contact'>
                     <ul className="content-list">
                         <li className='content-list__item'>
-                            <img src={photo} style={{ borderRadius: 20, width: 260 }} alt='' />
+                            <img src={photo} style={{ borderRadius: 8, width: 260 }} alt='' />
                         </li>
                         <li className="content-list__item">
                             <h2 className="title-2">{t('contact_name')}</h2>
