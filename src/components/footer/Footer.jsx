@@ -12,7 +12,7 @@ const Footer = () => {
                         <li className="social__item"><a href="https://vk.com/v.danileichyk"><FaVk className="social_icon" /></a></li>
                         <li className="social__item"><a href="https://t.me/+79963421022"><FaTelegram className="social_icon" /></a></li>
                         <li className="social__item"><a href="https://wa.me/+79963421022"><FaWhatsapp className="social_icon" /></a></li>
-                        <li className="social__item"><a href="https://chats.viber.com/%2B79963421022"><FaViber className="social_icon" /></a></li>
+                        <li className="social__item"><a href="viber://chat?number=%2B79963421022"><FaViber className="social_icon" /></a></li>
                     </ul>
                     {/* <div className="copyright">
                         <p>© 2023 pawasil</p>
