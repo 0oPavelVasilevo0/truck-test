@@ -13,11 +13,10 @@
     "contact_time": "Выезд к клиенту по Самарской обл. и её пределами. Звонить круглосуточно. Доставка запчастей.",
     "projects": {
         "title": {
-            "engine": "Motor",
-            "suspension": "Süspansiyon",
-            "chassis": "şasisi",
-            "transmission": "Şanzıman",
-            "brake_system": "Fren sistemi",
+            "engine": "Kamyon tamiri",
+            "suspension": "Römorkların, yarı römorkların onarımı",
+            "transmission": "Özel ekipmanların onarımı",
+            "brake_system": "Yedek parça siparişi, teslimatı",
             "maintenance": "Hizmet",
             "other": "işimiz"
         }

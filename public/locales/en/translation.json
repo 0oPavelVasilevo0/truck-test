@@ -13,11 +13,10 @@
     "contact_time": "Выезд к клиенту по Самарской обл. и её пределами. Звонить круглосуточно. Доставка запчастей.",
     "projects": {
         "title": {
-            "engine": "Engine",
-            "suspension": "Suspension",
-            "chassis": "Chassis",
-            "transmission": "Transmission",
-            "brake_system": "Brake system",
+            "engine": "Truck repair",
+            "suspension": "Repair of trailers, semi-trailers",
+            "transmission": "Repair of special equipment",
+            "brake_system": "Order, delivery of spare parts",
             "maintenance": "Maintenance",
             "other": "Our work"
 
