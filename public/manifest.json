@@ -19,8 +19,8 @@
     }
   ],
   "start_url": "/app/",
-  "orientation": "any",
-  "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "orientation": "any",
+  "display": "standalone"
 }

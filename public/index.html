@@ -11,9 +11,15 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     
     <title>Ремонт грузовых машин</title>
+    <script src="/public/pwabuilder-sw.js"></script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script>
+      if (typeof navigator.serviceWorker !== 'undefined') {
+        navigator.serviceWorker.register('pwabuilder-sw.js')
+      }
+    </script>
   </body>
 </html>
