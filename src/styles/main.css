@@ -45,6 +45,8 @@ font-family: 'Poppins', sans-serif;
     --project-card-bg: var(--gray);
     --project-card-text: var(--blackpure);
     --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
+    --box-shadow-norm: 0px 5px 10px rgba(0, 0, 0, 0.25);
+
 }
 
 .dark {
@@ -64,6 +66,8 @@ font-family: 'Poppins', sans-serif;
     --project-card-bg: var(--gray-black);
     --project-card-text: var(--white);
     --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
+    --box-shadow-norm: 0px 5px 10px rgba(0, 0, 0, 0.8);
+
 }
 
 html,
@@ -243,7 +247,7 @@ body {
 }
 
 
-@media (max-width: 820px) {
+@media (max-width: 840px) {
     .title-1 {
         margin-top: 2vh;
         font-size: 22px;
@@ -261,6 +265,11 @@ body {
     ul.nav-list {
         width: 360px;
     }
+
+        a.logo {
+            font-size: 20px;
+            margin-right: auto;
+        }
 }
 
 @media (max-width: 780px) {

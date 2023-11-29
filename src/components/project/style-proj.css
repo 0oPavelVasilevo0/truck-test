@@ -4,9 +4,12 @@
     text-align: center;
     background-color: var(--project-card-bg);
     backdrop-filter: blur(10px) contrast(50%);
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow-norm);
     border-radius: 10px;
     cursor: pointer;
+}
+.project:hover {
+box-shadow: var(--box-shadow);
 }
 
 .project__title {

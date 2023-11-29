@@ -16,7 +16,6 @@ const Navbar = () => {
             <div className="container">
                 <div className="nav-row">
                     <NavLink to="/" className="logo"><strong>{t('navbar_title')}</strong> {t('navbar_title/')}</NavLink>
-                    {/* <NavLink to="/" className="logo">Ремонт грузовиков Тольятти</NavLink> */}
                     <BtnDarkMode />
                     <ChangeLang />
                     <ul className="nav-list">
