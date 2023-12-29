@@ -19,9 +19,16 @@
             "brake_system": "Order, delivery of spare parts",
             "maintenance": "Maintenance",
             "other": "Our work"
-
+        },
+        "one": {
+            "engine": "Truck repair",
+            "hood": "Repair of chassis",
+            "brake": "Brake system",
+            "steering": "Steering system repair",
+            "transmission": "Repair transmission",
+            "gearbox": "Gearbox repair",
+            "electrical": "Electrical repair",
+            "pneumatic": "Repair of pneumatic systems"
         }
     }
-    
 }
-

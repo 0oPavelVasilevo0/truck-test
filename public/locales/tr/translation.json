@@ -19,6 +19,16 @@
             "brake_system": "Yedek parça siparişi, teslimatı",
             "maintenance": "Hizmet",
             "other": "işimiz"
+        },
+        "one": {
+            "engine": " Ремонт двигателя",
+            "hood": "Ремонт ходовки",
+            "brake": "Тормозная система",
+            "steering": " Ремонт рулевой системы",
+            "transmission": "Ремонт КПП",
+            "gearbox": "Ремонт редуктора",
+            "electrical ": "Ремонт электрики",
+            "pneumatic": " Ремонт пневмосистем"
         }
     }
    
