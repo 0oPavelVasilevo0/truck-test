@@ -3,8 +3,8 @@
 .footer {
     margin-top: auto;
     padding: 8px 0;
-    border-top: 1px solid var(--dark-border);
     background-color: var(--nav-bg);
+    box-shadow: var(--box-shadow-nav);
     color: var(--header-text);
     width: 100%;
     position: fixed;

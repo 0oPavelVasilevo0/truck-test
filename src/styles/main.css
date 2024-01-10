@@ -24,7 +24,7 @@ font-family: 'Poppins', sans-serif;
     --blue: rgb(97, 218, 251);
     --grey: rgb(228, 228, 228);
     /* --purple: rgb(23, 130, 108); */
-    --purple: #019492;
+    --purple: rgb(1, 147, 145);
     --light: rgba(216, 216, 216, 0.309);
     --dark: rgba(0, 0, 0, 0.346);
     --text-color: var(--black);
@@ -38,6 +38,7 @@ font-family: 'Poppins', sans-serif;
     --sun: var(--black);
     --moon: var(--white);
     --nav-bg: var(--grey);
+    --menu-bg: rgba(242, 242, 242, 0.936);
     --page-bg: var(--white);
     --text-color: var(--black);
     --header-bg-image: url('./../img/service2.png');
@@ -46,7 +47,8 @@ font-family: 'Poppins', sans-serif;
     --project-card-text: var(--blackpure);
     --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
     --box-shadow-norm: 0px 5px 10px rgba(0, 0, 0, 0.25);
-
+    --box-shadow-menu: 0 0 10px 6px rgba(0, 0, 0, 0.308);
+    --box-shadow-nav: 0px 5px 25px rgba(1, 149, 146, 0.635);
 }
 
 .dark {
@@ -63,11 +65,13 @@ font-family: 'Poppins', sans-serif;
     --dark-bg: var(--black);
     --accent: var(--blackpure);
     --nav-bg: var(--black-transparent);
+    --menu-bg: rgba(0, 0, 0, 0.875);
     --project-card-bg: var(--gray-black);
     --project-card-text: var(--white);
     --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
     --box-shadow-norm: 0px 5px 10px rgba(0, 0, 0, 0.8);
-
+    --box-shadow-menu: 0 0 10px 8px rgba(0, 0, 0, 0.483);
+    --box-shadow-nav: 0px 5px 25px rgb(168, 227, 244);
 }
 
 html,
@@ -266,10 +270,10 @@ body {
         width: 360px;
     }
 
-        a.logo {
-            font-size: 20px;
-            margin-right: auto;
-        }
+    a.logo {
+        font-size: 20px;
+        margin-right: auto;
+    }
 }
 
 @media (max-width: 780px) {
@@ -294,9 +298,9 @@ body {
 @media (max-width: 620px) {
 
     /* Header  */
-    a.logo {
+    /* a.logo {
         font-size: 14px;
-    }
+    } */
 
     .logo.active {
         order: 2;
@@ -411,10 +415,11 @@ body {
     .content-list__item {
         font-size: 16px;
     }
-    
+
     div.contact {
         margin-bottom: 10px;
     }
+
     /* Footer */
 
     .footer {
@@ -451,7 +456,6 @@ body {
     }
 
     ul.nav-list {
-
         column-gap: 2px;
     }
 
@@ -482,9 +486,9 @@ body {
 }
 
 @media (max-width: 280px) {
-    a.logo {
+    /* a.logo {
         font-size: 10px;
-    }
+    } */
 
     ul.nav-list {
         font-size: 12px;
