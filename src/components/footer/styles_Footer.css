@@ -4,7 +4,7 @@
     margin-top: auto;
     padding: 8px 0;
     background-color: var(--nav-bg);
-    box-shadow: var(--box-shadow-nav);
+    /* box-shadow: var(--box-shadow-nav); */
     color: var(--header-text);
     width: 100%;
     position: fixed;
