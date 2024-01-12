@@ -18,10 +18,10 @@ font-family: 'Poppins', sans-serif;
     --black-transparent: #171718;
     --black-border: #26292D;
     --gray: rgba(255, 255, 255, 0.88);
-    --gray-black: rgba(0, 0, 0, 0.354);
+    --gray-black: #0000005a;
     --white: #e6e6e6fc;
     --super-white: white;
-    --blue: rgb(97, 218, 251);
+    --blue: rgb(97, 217, 250);
     --grey: rgb(228, 228, 228);
     /* --purple: rgb(23, 130, 108); */
     --purple: rgb(1, 147, 145);
@@ -108,7 +108,7 @@ body {
 }
 
 .section {
-    padding: 70px 0;
+    padding: 60px 0;
     background-color: var(--page-bg);
     background-size: cover;
     background-position: center center;
@@ -174,6 +174,7 @@ body {
     column-gap: 30px;
     row-gap: 30px;
     opacity: 1;
+    margin-bottom: 30px;
 }
 
 /* Project details */
@@ -238,6 +239,21 @@ body {
     margin-top: 0.5em;
 }
 
+.section__reviews {
+    padding: 0;
+    background-color: var(--page-bg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+.reviews__avito {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 1200px) {
     li.project {
         min-width: 40vw;
@@ -296,11 +312,6 @@ body {
 }
 
 @media (max-width: 620px) {
-
-    /* Header  */
-    /* a.logo {
-        font-size: 14px;
-    } */
 
     .logo.active {
         order: 2;
@@ -441,6 +452,19 @@ body {
     }
 }
 
+@media (max-width: 380px) {
+    .section__reviews {
+            margin: 50px 0;
+        }
+}
+
+@media (max-width: 320px) {
+    .section__reviews {
+        margin: 50px 0 14px 0;
+    }
+
+}
+
 @media (max-width: 330px) {
 
     h1.header__title strong {
@@ -486,9 +510,6 @@ body {
 }
 
 @media (max-width: 280px) {
-    /* a.logo {
-        font-size: 10px;
-    } */
 
     ul.nav-list {
         font-size: 12px;

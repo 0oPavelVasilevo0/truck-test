@@ -7,6 +7,7 @@ import Project from "./pages/Project";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import ScrollToTop from "./utils/scrollToTop";
+import Reviews from "./pages/Reviews";
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                     <Route exact path="/projects" element={<Projects />} />
                     <Route exact path="/project/:id" element={<Project />} />
                     <Route exact path="/contacts" element={<Contacts />} />
+                    <Route exact path="/reviews" element={<Reviews />} />
                 </Routes>
                 <Footer />
             </Router>

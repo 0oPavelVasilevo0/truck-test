@@ -9,6 +9,7 @@
     width: 100%;
     position: fixed;
     bottom: 0;
+    z-index:1;
 }
 
 .footer__wrapper {
@@ -43,3 +44,19 @@ li.social__item {
 .copyright p+p {
     margin-top: 0.5em;
 }
+
+ .reviews__menu-button {
+     display: flex;
+     /* margin-left: auto; */
+     align-self: center;
+     width: 60px;
+     height: 24px;
+     background-color: transparent;
+     /* padding: 10px; */
+     color: var(--header-text);
+     z-index: 0;
+ }
+
+ .reviews__menu-button--active {
+    color: var(--active);
+ }
