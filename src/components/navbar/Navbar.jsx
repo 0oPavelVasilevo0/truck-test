@@ -57,6 +57,10 @@ const Navbar = () => {
         setOpen(!isOpen);
     };
 
+    const closeMenu = () => {
+        setOpen(false)
+    }
+
     return (
         <div className="navbar">
             <span className="navbar__logo">
@@ -71,13 +75,13 @@ const Navbar = () => {
                 </button> */}
                 <ul className="navbar__nav-list">
                     <li className="navbar__nav-item">
-                        <NavLink to="/" className={({ isActive }) => isActive ? activeLink : normalLink}>{t('navbar_list1')}</NavLink>
+                        <NavLink to="/" onClick={closeMenu} className={({ isActive }) => isActive ? activeLink : normalLink}>{t('navbar_list1')}</NavLink>
                     </li>
                     <li className="navbar__nav-item">
-                        <NavLink to="/projects" className={({ isActive }) => isActive ? activeLink : normalLink}>{t('navbar_list2')}</NavLink>
+                        <NavLink to="/projects" onClick={closeMenu} className={({ isActive }) => isActive ? activeLink : normalLink}>{t('navbar_list2')}</NavLink>
                     </li >
                     <li className="navbar__nav-item">
-                        <NavLink to="/contacts" className={({ isActive }) => isActive ? activeLink : normalLink}>{t('navbar_list3')}</NavLink>
+                        <NavLink to="/contacts" onClick={closeMenu} className={({ isActive }) => isActive ? activeLink : normalLink}>{t('navbar_list3')}</NavLink>
                     </li >
                     <li className="navbar__nav-item">
                         <ChangeLang />
