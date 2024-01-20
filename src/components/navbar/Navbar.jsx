@@ -48,9 +48,6 @@ const Navbar = () => {
     const activeLink = 'nav-list__link nav-list__link--active';
     const normalLink = 'nav-list__link';
 
-        // const activeMenu = 'button-icon--active';
-        // const normalMenu = 'button-icon';
-
     const [isOpen, setOpen] = useState();
 
     const toggleMenu = () => {
@@ -67,12 +64,6 @@ const Navbar = () => {
                 <NavLink to="/" className="logo"><strong>{t('navbar_title')}</strong> {t('navbar_title/')}</NavLink>
             </span>
             <nav className={`navbar__nav ${isOpen ? "active" : ""}`}>
-                {/* <button
-                    className='navbar__menu-close'
-                    onClick={() => setOpen(!isOpen)}
-                >
-                    <FaRegWindowClose className='button-icon' />
-                </button> */}
                 <ul className="navbar__nav-list">
                     <li className="navbar__nav-item">
                         <NavLink to="/" onClick={closeMenu} className={({ isActive }) => isActive ? activeLink : normalLink}>{t('navbar_list1')}</NavLink>
@@ -91,14 +82,6 @@ const Navbar = () => {
                     </li>
                 </ul >
             </nav >
-            {/* <button
-                className="navbar__menu-button"
-                onClick={() => setOpen(!isOpen)}
-            >
-                <GiHamburgerMenu 
-                className="button-icon"
-                />
-            </button > */}
             <button className='navbar__menu-button' onClick={toggleMenu}>
                 {isOpen ? (
                     <FaRegWindowClose className='button-icon' />
@@ -106,7 +89,6 @@ const Navbar = () => {
                     <GiHamburgerMenu className='button-icon' />
                 )}
             </button>
-                 {/* className={({ isActive }) => isActive ? activeMenu : normalMenu} */}
         </div>
     )
 }

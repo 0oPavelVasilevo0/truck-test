@@ -282,9 +282,9 @@ body {
         background-size: cover;
     }
 
-    ul.nav-list {
+    /* ul.nav-list {
         width: 360px;
-    }
+    } */
 
     a.logo {
         font-size: 20px;
@@ -297,9 +297,9 @@ body {
         margin-top: 4vh;
     }
 
-    div.nav-row {
+    /* div.nav-row {
         row-gap: 10px;
-    }
+    } */
 
     a.logo {
         font-size: 20px;
@@ -335,15 +335,15 @@ body {
     /* Nav */
 
 
-    ul.nav-list {
+    /* ul.nav-list {
         font-size: 14px;
         order: 4;
-    }
+    } */
 
-    div.nav-row {
+    /* div.nav-row {
         justify-content: space-evenly;
         row-gap: 18px;
-    }
+    } */
 
     .btn {
         height: 26px;
@@ -479,18 +479,18 @@ body {
         margin-top: 10vh;
     }
 
-    ul.nav-list {
+    /* ul.nav-list {
         column-gap: 2px;
     }
 
     div.nav-row {
         row-gap: 16px;
-    }
+    } */
 
-    .nav {
+    /* .nav {
         font-weight: lighter;
         font-size: small;
-    }
+    } */
 
     div.contact {
         margin-bottom: 10px;
@@ -509,9 +509,9 @@ body {
     }
 }
 
-@media (max-width: 280px) {
+/* @media (max-width: 280px) {
 
     ul.nav-list {
         font-size: 12px;
     }
-}
+} */

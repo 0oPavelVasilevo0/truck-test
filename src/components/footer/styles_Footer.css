@@ -4,7 +4,6 @@
     margin-top: auto;
     padding: 8px 0;
     background-color: var(--nav-bg);
-    /* box-shadow: var(--box-shadow-nav); */
     color: var(--header-text);
     width: 100%;
     position: fixed;
@@ -47,12 +46,10 @@ li.social__item {
 
  .reviews__menu-button {
      display: flex;
-     /* margin-left: auto; */
      align-self: center;
      width: 60px;
      height: 24px;
      background-color: transparent;
-     /* padding: 10px; */
      color: var(--header-text);
      z-index: 0;
  }
