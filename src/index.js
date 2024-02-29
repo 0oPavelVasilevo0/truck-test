@@ -4,13 +4,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './i18n';
 import Loading from './pages/Loading';
+import Delay from './helpers/Delay';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
     <Suspense fallback={<Loading />}>
-      <App />
+      <Delay waitBeforeShow={4000}>
+        <App />
+      </Delay>
     </Suspense>
   </React.StrictMode>
 );

@@ -262,6 +262,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100vw;
     margin: 0;
     padding: 0;
     background-color: #3e3e44;
@@ -269,17 +270,31 @@ body {
 
 .loading-img {
     height: auto;
-    width: 150px;
-    animation: slideRight 1s linear forwards;
+    width: 20px;
+    animation: slideRight 4s linear forwards;
 }
 
 @keyframes slideRight {
     0% {
-        transform: translateX(-100px);
+        transform: translateX(-100vw);
     }
 
+    25% {
+        transform: translateX(-75vw);
+        width: 100px;
+        
+    }
+
+    50% {
+        transform: translateX(0);
+        width: 150px;
+    }
+
+   
+
     100% {
-        transform: translateX(calc(100vw + 100px));
+        transform: translateX(0);
+        width: 200px;
     }
 }
 
