@@ -254,6 +254,35 @@ body {
     align-items: center;
 }
 
+
+
+.loading {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #3e3e44;
+}
+
+.loading-img {
+    height: auto;
+    width: 150px;
+    animation: slideRight 1s linear forwards;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+    }
+
+    100% {
+        transform: translateX(calc(100vw + 100px));
+    }
+}
+
 @media (max-width: 1200px) {
     li.project {
         min-width: 40vw;
@@ -454,8 +483,8 @@ body {
 
 @media (max-width: 380px) {
     .section__reviews {
-            margin: 50px 0;
-        }
+        margin: 50px 0;
+    }
 }
 
 @media (max-width: 320px) {
