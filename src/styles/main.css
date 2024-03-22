@@ -282,7 +282,7 @@ body {
     25% {
         transform: translateX(-75vw);
         width: 100px;
-        
+
     }
 
     50% {
@@ -290,7 +290,7 @@ body {
         width: 150px;
     }
 
-   
+
 
     100% {
         transform: translateX(0);
@@ -494,6 +494,7 @@ body {
     .social__item {
         width: 28px;
     }
+
 }
 
 @media (max-width: 380px) {
@@ -553,9 +554,14 @@ body {
     }
 }
 
-/* @media (max-width: 280px) {
+@media (max-height: 480px) {
 
-    ul.nav-list {
-        font-size: 12px;
+    .section__reviews {
+
+        min-height: calc(100vh + 400px);
     }
-} */
+
+    .reviews__avito {
+        margin-top: 50px;
+    }
+}
